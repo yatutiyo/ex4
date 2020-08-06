@@ -30,7 +30,7 @@ int main(void){
 
     printf("Heads: %d, Tails: %d\n",headnum,tailnum);
 
-    if(headnum>tailnum) printf("You won\n");
-    else printf("You lost\n");
+    if(headnum>tailnum) printf("%s won\n",name);
+    else printf("%s lost\n",name);
     return 0;
 }
